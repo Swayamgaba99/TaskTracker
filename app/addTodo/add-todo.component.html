@@ -1,0 +1,11 @@
+<form (ngSubmit)="Onsubmit()">
+    <div class="mb-3">
+      <label for="title">Title</label>
+      <input type="text" [(ngModel)]="title" class="form-control" name="title" id="title">
+    </div>
+    <div class="mb-3">
+      <label for="desc">Description</label>
+      <input type="text" [(ngModel)]="desc" class="form-control" name="desc" id="desc">
+    </div>
+    <button type="submit" class="btn btn-dark">Submit</button>
+  </form>
