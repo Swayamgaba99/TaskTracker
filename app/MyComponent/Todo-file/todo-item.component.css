@@ -1,0 +1,11 @@
+.todo-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .todo-item h3, .todo-item p, .todo-item button {
+    display: inline;
+  }
+  .strike{
+    text-decoration: line-through;
+  }
